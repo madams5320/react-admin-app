@@ -1,4 +1,4 @@
-# Central Point - Social Media Responsive Design
+# React Admin Dashboard App
 
 
 *** 
