@@ -1,0 +1,10 @@
+// display flex to modify child items
+// this will make child items horizonal
+.home {
+  display: flex;
+
+  .homeContainer {
+    // give flex item size
+    flex: 6;
+  }
+}
