@@ -21,37 +21,37 @@
     }
 
     .counter {
-        font-size: 28px;
-        font-weight: 300;
+      font-size: 28px;
+      font-weight: 300;
     }
 
     .link {
-        width: max-content;
-        font-size: 12px;
-        border-bottom: 1px solid gray;
+      width: max-content;
+      font-size: 12px;
+      border-bottom: 1px solid gray;
     }
 
     .percentage {
-        display: flex;
-        align-items: center;
-        font-size: 14px;
+      display: flex;
+      align-items: center;
+      font-size: 14px;
 
-        &.positive {
-            color: green;
-        }
+      &.positive {
+        color: green;
+      }
 
-        &.negative {
-            color: red;
-        }
+      &.negative {
+        color: red;
+      }
     }
 
     .icon {
-        font-size: 18px;
-        // for background
-        padding: 5px;
-        border-radius: 5px;
-        // align item
-        align-self: flex-end;
+      font-size: 18px;
+      // for background
+      padding: 5px;
+      border-radius: 5px;
+      // align item
+      align-self: flex-end;
     }
   }
 }
