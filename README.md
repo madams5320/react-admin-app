@@ -3,8 +3,9 @@
 ## Project
 - sass 
 - react-router-dom
-- material ui
-- material icons
+- Material UI
+- Material Icons
+- Recharts
 
 
 ***
