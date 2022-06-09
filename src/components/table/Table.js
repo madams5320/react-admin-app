@@ -1,7 +1,7 @@
 import './Table.scss';
 
 // import material ui components
-import MuiTable from '@mui/material/Table';
+import TableMui from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
@@ -66,7 +66,7 @@ const Table = () => {
 
   return (
     <TableContainer component={Paper} className="table">
-      <MuiTable sx={{ minWidth: 650 }} aria-label="simple table">
+      <TableMui sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
             <TableCell className="tableCell">Tracking ID</TableCell>
@@ -95,14 +95,12 @@ const Table = () => {
               <TableCell className="tableCell">{row.method}</TableCell>
               {/* change status color base on status */}
               <TableCell className="tableCell">
-                  <span className={`status ${row.status}`}>
-                      {row.status}
-                  </span>
+                <span className={`status ${row.status}`}>{row.status}</span>
               </TableCell>
             </TableRow>
           ))}
         </TableBody>
-      </MuiTable>
+      </TableMui>
     </TableContainer>
   );
 };

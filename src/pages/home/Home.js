@@ -1,16 +1,16 @@
-import Chart from "../../components/chart/Chart";
-import Featured from "../../components/featured/Featured";
+import Chart from '../../components/chart/Chart';
+import Featured from '../../components/featured/Featured';
 import Navbar from '../../components/navbar/Navbar';
 import Sidebar from '../../components/sidebar/Sidebar';
-import Table from "../../components/table/Table";
-import Widget from "../../components/widget/Widget";
+import Table from '../../components/table/Table';
+import Widget from '../../components/widget/Widget';
 import './Home.scss';
 
 const Home = () => {
   return (
     <div className="home">
       <Sidebar />
-      <div className='homeContainer'>
+      <div className="homeContainer">
         <Navbar />
 
         {/* wigets w/ props */}
@@ -24,7 +24,7 @@ const Home = () => {
         {/* charts */}
         <div className="charts">
           <Featured />
-          <Chart />
+          <Chart aspect={ 2 / 1 } title="Last 6 Months (Revenue)" />
         </div>
 
         {/* */}
