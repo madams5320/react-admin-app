@@ -6,6 +6,8 @@
 - Material UI
 - Material Icons
 - Recharts
+- Context API
+- useState & useReducer
 
 
 ***
