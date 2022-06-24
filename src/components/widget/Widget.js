@@ -6,6 +6,7 @@ import PersonOutlineIcon from '@mui/icons-material/PersonOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import MonetizationOnOutlinedIcon from '@mui/icons-material/MonetizationOnOutlined';
 import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalanceWalletOutlined';
+import { Link } from "react-router-dom";
 
 const Widget = ({ type }) => {
   //temporary
@@ -20,7 +21,11 @@ const Widget = ({ type }) => {
       data = {
         title: 'USERS',
         isMoney: false,
-        link: 'See all users',
+        link: (
+          <Link to="/users" style={{ textDecoration: 'none' }}>
+            See all users
+          </Link>
+        ),
         icon: (
           <PersonOutlineIcon
             className="icon"
