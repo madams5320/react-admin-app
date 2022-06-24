@@ -9,6 +9,7 @@ import { productInputs, userInputs } from './formSource';
 import './style/dark.scss';
 import { useContext } from 'react';
 import { DarkModeContext } from './context/darkModeContext';
+import Error from "./pages/error/Error";
 
 const App = () => {
   const { darkMode } = useContext(DarkModeContext);
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/">
             <Route index element={<Home />} />
             <Route path="login" element={<Login />} />
+            <Route path="error" element={<Error />} />
             {/* nested routes */}
             <Route path="users">
               <Route index element={<List />} />
