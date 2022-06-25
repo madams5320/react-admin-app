@@ -1,4 +1,4 @@
-# React Admin Dashboard App
+# React Admin Dashboard App UI Design
 
 
 [Demo](https://lucent-crepe-7e036e.netlify.app/)
